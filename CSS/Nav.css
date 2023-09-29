@@ -1,0 +1,19 @@
+#nav-menu{
+    border: 2px solid rebeccapurple;
+    height: 60px;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 1.5%;
+}
+
+#sub-nav{
+    border: 2px solid red;
+    width: 52%;
+    font-size: 22px;
+    
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-between;
+}

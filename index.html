@@ -4,44 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohit Chaudhari - Portfolio</title>
-    <style>
-        .home-img{
-            width: 115px;
-        }
-    </style>
+    <link rel="stylesheet" href="/CSS/Nav.css">
+    <link rel="stylesheet" href="/CSS/Home.css">
+    <link rel="stylesheet" href="/CSS/Project.css">
 </head>
 <body>
     <nav id="nav-menu">
         <a class="nav-link top" href="#nav-menu">Mohit</a>
-        <a class="nav-link home" href="#home">Home</a>
-        <a class="nav-link about" href="#about">About</a>
-        <a class="nav-link skills" href="#skills">Skills</a>
-        <a class="nav-link projects" href="#projects">Project</a>
-        <a class="nav-link contact" href="#contact">Contact</a>
-        <a class="nav-link resume" href="#resume">Resume</a>
+        <div id="sub-nav">
+            <a class="nav-link home" href="#home">Home</a>
+            <a class="nav-link about" href="#about">About</a>
+            <a class="nav-link skills" href="#skills">Skills</a>
+            <a class="nav-link projects" href="#projects">Projects</a>
+            <a class="nav-link contact" href="#contact">Contact</a>
+            <a class="nav-link resume" href="#resume">Resume</a>
+        </div>   
     </nav>
 
     <div id="home">
-        <img class="home-img" src="./Images/DSC_0336.jpg" alt="Professional Photo Error">  
-        <div id="user-detail-name">Hi, I'm Mohit Chaudhari</div>
+        <img class="home-img" src="./Images/DSC_0336.jpg" alt="Professional Photo Error"> 
+        <div class="home-details">
+            <h2 id="user-detail-name">Hi, I'm Mohit Chaudhari</h2>
         <p id="user-detail-intro">
-            Dynamic Java Backend Developer with extensive Java, Maven, Hibernate & <br>
-            RDBMS expertise. Demonstrated success in solo and collaborative projects. <br>
-            Superb communication skills, fostering seamless collaboration. Eager to  <br>
-            make a valuable contribution to Java development endeavours. 
+            Dynamic Java Backend Developer with extensive Java, Maven, Hibernate & 
+            RDBMS expertise.<br> Demonstrated in solo and collaborative projects. 
+            Superb communication skills, fostering seamless<br> collaboration. Eager to  
+            make  a valuable contribution to Java development endeavours. 
          </p>
-        <a id="resume-link-1" href="/path-to-your-resume.pdf" download="your-resume.pdf" target="_blank">Download Resume</a>
-        <a id="resume-link-2" href="/path-to-your-resume.pdf" download="your-resume.pdf">View Resume</a>
+         <div id="links">
+            <a id="resume-link-1" href="/path-to-your-resume.pdf" download="your-resume.pdf" target="_blank">Download Resume</a>
+            <a id="resume-link-2" href="/path-to-your-resume.pdf" download="your-resume.pdf">View Resume</a>
+         </div>
+        
+        </div> 
+        
     </div>
 
 
     <div id="about" class="about section">
         <h2>About Me</h2>
-        <p>I'm Mohit Chaudhari from Shahada, Maharashtra. I graduated with a Bachelor of <br>
-            Civil Engineering in 2021 from Matoshri College of Engineering and Research <br>
-            Centre, Nashik. I completed a 35-week Full Stack Web Development course <br>
-            at Masai in 2022, where I gained industry-level knowledge. I've worked on <br>
-            projects in groups and individually, like an e-commerce website and a <br>
+        <p>I'm Mohit Chaudhari from Shahada, Maharashtra. I graduated with a Bachelor of 
+            Civil Engineering in 2021 from Matoshri College of Engineering and Research 
+            Centre, Nashik. I completed a 35-week Full Stack Web Development course 
+            at Masai in 2022, where I gained industry-level knowledge. I've worked on 
+            projects in groups and individually, like an e-commerce website and a 
             console-based news application.
         </p>
         
@@ -49,6 +55,7 @@
 
 
     <div id="skills">
+        <h2>Skills</h2>
         <div class="skills-card">
             <img class="skills-card-img" src="" alt="">
             <h3 class="skills-card-name"></h3>
@@ -73,6 +80,7 @@
 
 
     <div id="projects">
+        <h2>Projects</h2>
         <div class="project-card">
             <img src="" alt="">
             <h3 class="project-title">Title</h3>
@@ -109,6 +117,7 @@
 
 
     <div id="contact">
+        <h2>Contact</h2>
         <div id="contact-phone">+91-7767806062</div>
         <div id="contact-email">chaudharimohit1410@gmail.com</div>
         <div id="contact-github"></div>
@@ -117,8 +126,6 @@
 
 
 
-    <!-- <div id="resume">
-        <button id="resume-button-1">Resume</button>
-    </div> -->
+   <script src="/JS/script.js"></script> 
 </body>
 </html>
