@@ -1,15 +1,29 @@
+body{
+    /* width: 100%; */
+    margin: 0%;
+    background-color: rgb(232, 231, 231);
+}
+
+
 #nav-menu{
-    border: 2px solid rebeccapurple;
-    height: 60px;
+    /* border: 2px solid rebeccapurple; */
+    height: 70px;
     display: flex;
     font-size: 30px;
     font-weight: bold;
     align-items: center;
-    padding-left: 1.5%;
+    padding-left: 2.5%;
+    background-color:  #A9A9A9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+#nav-menu a {
+    color: black;
+    text-decoration: none;
 }
 
 #sub-nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 52%;
     font-size: 22px;
     
