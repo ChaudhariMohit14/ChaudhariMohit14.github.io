@@ -3,6 +3,8 @@
     display: flex;
     background-image: url(/Images/img2.jpg);
     background-size: cover;
+    font-size: 20px;
+
 }
 
 .home-img{
@@ -10,21 +12,21 @@
     margin: 5% 6% 5% 14%;
     width: 14%;
     border: 5px solid black;
-    border-radius: 25%;
+    border-radius: 35px;
 }
 
 .home-details{
     /* border: 2px solid slateblue; */
     height: 24%;
-    margin: 6% 0% 0% 2%;
+    margin: 5% 0% 0% 2%;
     align-items: center;
     padding-bottom: 2%;
 }
 
-#user-detail-intro{
+/* #user-detail-intro{
     font-size: 20px;
 
-}
+} */
 
 #links{
     /* border: 2px solid darkblue; */
