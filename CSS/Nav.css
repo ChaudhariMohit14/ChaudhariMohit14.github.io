@@ -26,8 +26,17 @@ body{
     /* border: 2px solid red; */
     width: 52%;
     font-size: 22px;
-    
+
     margin-left: 40%;
     display: flex;
     justify-content: space-between;
+}
+
+#nav-resume{
+    border: 2px solid red;
+    width: 9%;
+}
+
+#nav-resume img{
+    width: 7%;
 }
