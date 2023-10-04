@@ -71,12 +71,14 @@
 }
 
 #about h1{
-    margin-left: 41%;
+    /* margin-left: 41%; */
+    text-align: center;
 }
 
 #skillsHead{
-    display: inline-block;
-    margin-left: 46%;
+    /* display: inline-block; */
+    /* margin-left: 46%; */
+    text-align: center;
     margin-top: 70px;
     margin-bottom: 40px;
     /* font-size: xx-large; */

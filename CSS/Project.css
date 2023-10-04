@@ -3,8 +3,9 @@
 }
 
 #projects h1{
-    margin-left: 44%;
-    margin-top: 70px;
+    /* margin-left: 44%;
+    margin-top: 70px; */
+    text-align: center;
 }
 
 .project-card{
