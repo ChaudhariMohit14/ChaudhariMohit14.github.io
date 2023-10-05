@@ -1,10 +1,13 @@
+
+/* <!------------------------------- Body Section ----------------------------> */
+
 body{
     /* width: 100%; */
     margin: 0%;
     background-color: rgb(232, 231, 231);
 }
 
-
+/* <!------------------------------ NavBar Section ------------------------------> */
 #nav-menu{
     /* border: 2px solid rebeccapurple; */
     height: 70px;
