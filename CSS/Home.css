@@ -2,7 +2,7 @@
 /* <!--------------------------------- Home Section ---------------------------> */
 
 #home{
-    border: 2px solid firebrick;
+    /* border: 2px solid firebrick; */
     display: flex;
     background-image: url(/Images/img2.jpg);
     background-size: cover;
