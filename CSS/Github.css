@@ -1,6 +1,10 @@
 
 /* <!----------------------------------- Github Stats Section ----------------------------> */
 
+.github{
+    padding-top: 14px;
+}
+
 .github h1{
     /* margin-left: 44%;*/
     margin-top: 70px; 

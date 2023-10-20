@@ -14,7 +14,7 @@
 .home-img{
     
     margin: 5% 6% 5% 14%;
-    width: 14%;
+    width: 12%;
     border: 5px solid black;
     border-radius: 35px;
 }
@@ -37,6 +37,7 @@
     width: 40%;
     margin-left: 15%;
     margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
@@ -70,16 +71,17 @@
     /* border: 2px solid black; */
     font-size: 20px;
     text-align: left;
-    margin: -2% 10% 2% 10%;
+    margin: -2.5% 10% 0% 10%;
     border-radius: 20px;
     background-color: whitesmoke;
-    padding: 0.2% 3% 1.5% 3%;
+    padding: 2.3% 4.3% 2.6% 4.3%;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 #about h1{
     /* margin-left: 41%; */
     text-align: center;
+    margin: 3%;
 }
 
 
@@ -92,11 +94,14 @@
     text-align: center;
     margin-top: 70px;
     margin-bottom: 40px;
+    
     /* font-size: xx-large; */
 }
 
 #skills{
     font-size: 20px;
+    padding-top: 10px;
+    /* border: 2px solid red; */
 }
 
 #cards{
