@@ -328,27 +328,27 @@
             </div>
           </div>
       </div>
-      <div class="send-info">
+      <div class="send-info" >
 
           <div>
               <div class="input-box">
                   <p>Name</p>
-                  <input type="text" />
+                  <input id="name1" type="text" />
               </div>
               <div class="input-box">
                   <p>Email</p>
-                  <input type="text" />
+                  <input id="email1" type="text" />
               </div>
               <div class="input-box">
                   <p>Projects</p>
-                  <input type="text" />
+                  <input id="project1" type="text" />
               </div>
               <div class="input-box">
                   <p>Message</p>
-                  <textarea type="text" rows="5"></textarea>
+                  <textarea id="message1" type="text" rows="5"></textarea>
               </div>
-              <div class="submit-btn">
-                  <button>Send Message</button>
+              <div class="submit-btn" >
+                  <button onclick="sendMail()">Send Message</button>
 
               </div>
           </div>
@@ -367,3 +367,12 @@
 </body>
 </html>
 <script src="scripts/script.js"></script>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("L6vhGomXQTWR__MSJ");
+   })();
+</script>
