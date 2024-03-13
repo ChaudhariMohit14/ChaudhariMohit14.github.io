@@ -18,7 +18,7 @@ menu.addEventListener('click',()=>{
 
 
 function resume(){
-    window.open("https://drive.google.com/file/d/1F5ujtvgZIAnHClptRedDL1viNDaUKHGC/view?usp=drive_link",`_blank`)
+    window.open("https://drive.google.com/file/d/1Enf5ymDZ0B1S50AQd2JezTYQDSXv-FZz/view?usp=sharing",`_blank`)
   }
   
 
