@@ -227,6 +227,16 @@ header img{
     height: 12vh;
 }
 
+#skills-cont{
+    transition: transform 0.2s;
+}
+
+#skills-cont:hover{
+    background-color: white;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
 #about{
     background-color: #10151a;
     width: 100%;
